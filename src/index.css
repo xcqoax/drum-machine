@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+ 
+  width: 80%;
+  margin-top: 250px;
+  
+}
+
+.drum-pad{
+  
+  width: 60%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.drum-control{
+  
+margin:0 auto;
+  justify-content: space-evenly;
+}
+
+.btn{
+  width: 30%; 
+  margin: 5px;
+  height: 100px;
+  border:none;
+background: transparent;
+color:white;
+border: 1px solid white
+}
+
+.display{
+  width: 200px;
+      color:white;
+      margin: 15px auto;
+      padding: 15px;
+      box-sizing: border-box;
+}
+
+.control{
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  color:white;
+  border: 1px solid white
+ 
+}
